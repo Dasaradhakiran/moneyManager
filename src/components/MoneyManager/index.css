@@ -1,0 +1,110 @@
+/* Write your CSS here */
+.app-cont {
+  padding: 55px;
+  padding-top: 30px;
+}
+
+.name-cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 15px;
+  padding-left: 20px;
+  border-radius: 15px;
+}
+.name-cont-text {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 23px;
+}
+.name-cont-para {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 16px;
+}
+.name-cont-para-style {
+  font-family: 'Roboto';
+  color: #0b69ff;
+  font-size: 16px;
+}
+
+.card-3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  width: 500px;
+  height: 440px;
+}
+.form-head {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.form-label-text {
+  font-family: 'Roboto';
+  color: #7e858e;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.form-input-elem {
+  height: 40px;
+  outline: none;
+  border: 1px solid #cbd5e1;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.form-button {
+  background-color: #0b69ff;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 3px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 14px;
+  width: 80px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.transactions-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border: 1px solid #d7dfe9;
+  border-radius: 10px;
+  width: 500px;
+  height: 440px;
+}
+.transactions-main-head-cont {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #d7dfe9;
+  margin-left: 0px;
+}
+.ul-cont {
+  padding-left: 0px;
+  margin-top: 0px;
+}
+.transactions-main-head-sub-cont {
+  width: 120px;
+}
+.transactions-main-head {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 13px;
+  font-weight: 600;
+}

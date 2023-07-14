@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.money-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.balance-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+  border-radius: 10px;
+  width: 300px;
+  padding: 3px;
+}
+.income-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+  border-radius: 10px;
+  width: 300px;
+  padding: 3px;
+}
+.expenses-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+  border-radius: 10px;
+  width: 300px;
+  padding: 3px;
+}
+
+.balance-img {
+  width: 50px;
+}
+.balance-text {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 15px;
+}
+.balance-amount {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 18px;
+  font-weight: 600;
+}
